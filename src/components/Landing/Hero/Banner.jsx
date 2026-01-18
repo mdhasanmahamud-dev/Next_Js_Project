@@ -35,12 +35,6 @@ const Banner = () => {
                 <p className="text-gray-200 text-lg md:text-xl mb-6">
                   {slide.description}
                 </p>
-                <Link
-                  href={slide.cta.link}
-                  className="inline-block bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md text-white font-medium transition shadow-lg"
-                >
-                  {slide.cta.text}
-                </Link>
               </div>
             </div>
           </SwiperSlide>
